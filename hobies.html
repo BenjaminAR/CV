@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV de Benjamin</title>
+  <link rel="stylesheet" href="hobies.css">
+</head>
+<body>
+    <header>
+        <nav align="center">
+            <ul>
+                <li><a href="home.html">Home</a></li>  
+                <li><a href="expe.html">Experiencia</a></li>
+                <li><a href="hobies.html">Habilidades</a></li>
+                <li><a href="estudios.html">Estudios</a></li>   
+                <li><a href="contacto.html">Contacto</a></li>   
+            </ul>
+        </nav>
+    </header> 
+<div class="sectionOne">
+    <img class="me" src="images/yo.jpg">
+    <div class="center">
+        <h1 align="center"><p class="tema">Habilidades</p></h1>
+        <br></br>
+        <div class="progress">
+        <p>HTML5</p>
+            <progress id="html5" max="100" value="90"></progress>
+            <span></span>
+        
+        </div>
+        
+        <div class="progress">
+        <p>CSS</p>
+            <progress id="css" max="100" value="65"></progress>
+            <span></span>
+        </div>
+
+        <div class="progress">
+        <p>Javascript</p>
+            <progress id="javascript" max="100" value="30"></progress>
+            <span></span>
+        </div>
+        
+        <div class="progress">
+        <p>Inglés</p>
+            <progress id="ing" max="100" value="40"></progress>
+            <span></span>
+        </div>
+
+                
+        <div class="progress">
+        <p>Paqueteria office *</p>
+            <progress id="office" max="100" value="60"></progress>
+            <span></span>
+        </div>
+                
+</div>
+
+<script type="text/javascript"> 
+
+    window.onload = function() { 
+        
+        animateprogress("#html5",90);
+        animateprogress("#css",65);
+        animateprogress("#javascript",30);
+        animateprogress("#ing",40);
+        animateprogress("#office",60);
+        
+    } 	
+</script>
+</div>
+<footer class="end">
+    <li>En agradeciminetos a CODER[ ]M</li>
+</footer>
+<script src="hobies.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+ body{
+  font-family: 'Montserrat', sans-serif;
+  }
+li{
+  list-style-type: none;
+  display: inline-block;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+  background: rgb(4, 57, 110);
+	height: 70px;
+	top: 0;
+	position: sticky;
+	z-index: 14;
+  } 
+header nav li {
+	padding: 1.5% 5%;
+  }
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 25px;
+  }
+.sectionOne{
+  background-color: rgb(0, 100, 204);
+  width: 90%;
+  height: 2300px;
+  margin: 0 auto 0px;
+  position: relative;
+ }
+ 
+.caja{
+  width: 90%;
+  margin-left: 17%;
+  margin-top: 155%;
+  position: absolute;
+}
+.caja li{
+  width: 200px;
+  height: 150px;
+  display: inline-block;
+  border: 15px solid rgba(8, 16, 126, 0.568);
+  margin: 10px;
+  box-sizing: border-box;
+  transform: scale(1);
+  transition: all .2s ease-out;
+}
+
+.caja li:hover{
+  transform: scale(1.2);
+}
+
+.caja li a{
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.caja li img{
+  width: 100%;
+}
+
+.fondo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;   /*escalar preferencia en pantalla */
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.692);
+}
+.close {
+  position: absolute;
+  top: 67%;
+  right: 47%;
+  color: rgb(188, 190, 223);
+  text-decoration: none;
+  font-size: 18pt;
+  color: white;
+}
+p{
+  color: rgb(233, 221, 221);
+  font-size: 14pt;
+}
+ul{
+  color: whitesmoke;
+  font-size: 13pt; 
+}
+.expeSP{
+  
+  position: absolute;
+  background-color: rgb(31, 76, 121);
+  height: 10%;
+  width: 65%;
+  margin-top: 50px;
+  margin-left: 16%;
+  padding: 2%;
+}
+.expeQB{
+  position: absolute;
+  background-color: rgb(31, 76, 121);
+  height: 39%;
+  width: 65%;
+  margin-top: 360px;
+  margin-left: 16%;
+  padding: 2%;
+}
+.expeCH{
+  position: absolute;
+  background-color: rgb(31, 76, 121);
+  height: 300PX;
+  width: 65%;
+  margin-top: 1350px;
+  margin-left: 16%;
+  padding: 2%;
+}
+h2{
+  font-family: 'Bree Serif', serif;
+}
+.caja{
+  width: 65%;
+  margin-top: 1680px;
+  position: absolute;
+}
+.sectionOne  h2{
+  font-size: 25pt;
+  color: rgb(0, 0, 0);
+}
+
+footer{
+  width: 100%;
+  background-color: rgb(56, 72, 75);
+  
+}
+footer li{
+  color: white;
+}
