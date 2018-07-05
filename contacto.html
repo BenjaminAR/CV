@@ -5,10 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>CV de Benjamin</title>
   <link rel="stylesheet" href="contacto.css">
+  <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <header>
-    <nav align="center">
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu"><img src="images/menu.png" alt=""></label>
+    <nav class="menu">
             <ul>
             <li><a href="index.html">Home</a></li>  
             <li><a href="expe.html">Experiencia</a></li>
@@ -22,10 +25,14 @@
         <div class="form1">
             <form class="formData" align="center" action="https://elite-narwhal.glitch.me/mail">
                 <br>
+                
                 <br>
                 <P>Contactame con un correo</P>
                 <br>
+                <br>
+                <br>
                 <input type="text" name="correo" class="text" placeholder="Correo">
+                <br>
                 <br>
                 <br>
                 <br>
@@ -33,7 +40,7 @@
                 <br>
                 <br>
                 <br>
-                <br>
+                
                 <input type="hidden" name="receiver" value="bena96123@gmail.com">
                 <input type="hidden" name="receiver_name" value="Benjamin">
                 <button  class="send" href="#">Enviar</button>

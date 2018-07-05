@@ -4,44 +4,28 @@
     margin: 0;
     padding: 0;
 }
- body{
+body{
   font-family: 'Montserrat', sans-serif;
   }
+
 li{
     list-style-type: none;
     display: inline-block;
 }
-header{
-    font-family: 'Montserrat', sans-serif;
-	width: 100%;
-    margin: 0 auto;
-    background: rgb(4, 57, 110);
-	height: 50px;
-	top: 0;
-	position: sticky;
-	z-index: 10;
-  } 
-  header nav li {
-	padding: 15px 6%;
-  }
-  header nav ul li a{
-	color: white;
-	text-decoration: none;
-	font-size: 100%;
-  }
-  
+
 .sectionOne{
     background-color: rgb(0, 100, 204);
     width: 90%;
-    height: 540px;
+    height: 600px;
     margin: 0 auto 0px;
     position: relative;
  }
- .git{
+
+.git{
     position: absolute;
     border-radius: 100%;
     margin: 110px 77%;
-    padding: 1%;
+    padding: 1%; 
 }
 .in{
     position: absolute;
@@ -52,16 +36,16 @@ header{
 .pos1{
     position: absolute;
     color: white;
-    margin: 470px 25% auto;
+    margin: 500px 2% auto;
     padding: 1%;
-    font-size: 70%;
+    font-size: 100%;
 }
 .pos2{
     position: absolute;
     color: white;
-    margin: 420px 25% auto;
+    margin: 440px 2% auto;
     padding: 1%;
-    font-size: 70%;
+    font-size: 100%;
 }
 
 
@@ -81,7 +65,7 @@ section li {
 
 .form1  p{
     color: white;
-    font-size: 200%;
+    font-size: 160%;
 }
 
 .send{
@@ -90,16 +74,23 @@ section li {
     border: transparent;
     background-color: transparent; 
     font-size: 17pt;
-    margin: -1% -3% ;
+    margin: -1% -3%;
+    padding: 10px 10px;
+}
+.send:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+  
 }
 .text{
     width: 80%;
-    padding: 4% 3%;
+    padding: 1% 2%;
+    margin-bottom: 30px;
     box-sizing: border-box;
     border: none;
     background-color: transparent;
     border-bottom: 2px solid white;
-    font-size: 14pt;
+    font-size: 10pt;
 }   
 
 footer{
