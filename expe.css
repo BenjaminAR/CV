@@ -75,14 +75,13 @@ li{
 }
 p{
   color: rgb(233, 221, 221);
-  font-size: 14pt;
+  font-size: 80%;
 }
 ul{
   color: whitesmoke;
-  font-size: 13pt; 
+  font-size: 78%; 
 }
 .expeSP{
-  
   position: absolute;
   background-color: rgb(31, 76, 121);
   height: 10%;
@@ -96,21 +95,23 @@ ul{
   background-color: rgb(31, 76, 121);
   height: 39%;
   width: 65%;
-  margin-top: 360px;
+  margin-top: 370px;
   margin-left: 16%;
   padding: 2%;
 }
 .expeCH{
   position: absolute;
   background-color: rgb(31, 76, 121);
-  height: 300PX;
+  height: 300px;
   width: 65%;
-  margin-top: 1350px;
+  margin-top: 1360px;
   margin-left: 16%;
   padding: 2%;
 }
-h2{
+.classh2{
   font-family: 'Bree Serif', serif;
+  font-size: 210%;
+  color: black; 
 }
 .caja{
   width: 65%;
@@ -130,3 +131,23 @@ footer{
 footer li{
   color: white;
 }
+
+@media (max-width: 510px){
+  .sectionOne{
+    height: 2600px;
+  }
+  .expeSP{
+    height: 350px;
+    }
+  .expeQB{
+    height: 1070px;
+    margin-top: 450px;
+    }
+  .expeCH{
+    margin-top: 1560px;
+    height: 350px;
+  }
+  .caja{
+    margin-top: 1900px;
+  }
+  }

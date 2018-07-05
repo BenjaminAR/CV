@@ -54,9 +54,10 @@ footer li{
     }
     .me{
         margin: 200px 18% 0px;
+        height: 200px;
     }
     #typer{
         font-size: 200%;
-        left: 10%;
+        left: 6%;
     }
 }
