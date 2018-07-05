@@ -1,5 +1,5 @@
 $(function(){
-    var texto = "Portafolio de:";
+    var texto = "Portafolio de: Benjamin Salomon Avila Rivera";
     maquina("typer",texto,100);
 
 });
