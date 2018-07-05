@@ -16,7 +16,7 @@ li{
 .sectionOne{
     background-color: rgb(0, 100, 204);
     width: 90%;
-    height: 600px;
+    height: 1024px;
     margin: 0 auto 0px;
     position: relative;
  }
@@ -59,7 +59,7 @@ section li {
     position: absolute;
     background-color: rgb(31, 76, 121);
     width: 70%;
-    height: 70%;
+    height: 400PX;
     margin: 30px 2%;
 }
 

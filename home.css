@@ -18,21 +18,21 @@ li{
 .sectionOne{
     background-color: rgb(0, 100, 204);
     width: 90%;
-    height: 700px;
+    height: 1024px;
     margin: 0 auto 0px;
     position: relative;
  }
 
 .me{
     position: flex;
-    margin: 100px 18%;
+    margin: 140px 18%;
     width: 60%;
-    padding: 10px;
+    padding: 5px;
 }
 #typer{
     font-family: 'Lobster', cursive;
     position: absolute;
-    top: 25px;
+    top: 35px;
     left: 20px;
     padding: 10px;
     color: rgb(23, 21, 29);
