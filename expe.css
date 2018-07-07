@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
 
 *{
   margin: 0;
@@ -15,8 +16,8 @@ li{
 }
 
 .sectionOne{
-  background-color: rgb(0, 100, 204);
-  width: 90%;
+  background-color: rgb(20, 19, 19);
+  width: 100%;
   height: 2300px;
   margin: 0 auto 0px;
   position: relative;
@@ -32,7 +33,7 @@ li{
   width: 200px;
   height: 150px;
   display: inline-block;
-  border: 15px solid rgba(8, 16, 126, 0.568);
+  border: 15px solid rgba(0, 0, 0);
   margin: 10px;
   box-sizing: border-box;
   transform: scale(1);
@@ -57,12 +58,12 @@ li{
 .fondo{
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 110%;
   z-index: 1;   /*escalar preferencia en pantalla */
   display: none;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.692);
+  background-color: rgba(118, 122, 155, 0.33);
 }
 .close {
   position: absolute;
@@ -75,43 +76,43 @@ li{
 }
 p{
   color: rgb(233, 221, 221);
-  font-size: 80%;
+  font-size: 100%;
 }
-ul{
-  color: whitesmoke;
-  font-size: 78%; 
+.sectionOne ul{
+  color: rgb(233, 221, 221);
+  font-size: 95%; 
 }
 .expeSP{
   position: absolute;
-  background-color: rgb(31, 76, 121);
+  background-color: rgba(51, 58, 58, 0.514);
   height: 10%;
-  width: 65%;
+  width: 75%;
   margin-top: 50px;
-  margin-left: 16%;
+  margin-left: 10%;
   padding: 2%;
 }
 .expeQB{
   position: absolute;
-  background-color: rgb(31, 76, 121);
-  height: 39%;
-  width: 65%;
+  background-color: rgb(51, 58, 58, 0.514);
+  height: 32%;
+  width: 75%;
   margin-top: 370px;
-  margin-left: 16%;
+  margin-left: 10%;
   padding: 2%;
 }
 .expeCH{
   position: absolute;
-  background-color: rgb(31, 76, 121);
-  height: 300px;
-  width: 65%;
-  margin-top: 1360px;
-  margin-left: 16%;
+  background-color: rgb(51, 58, 58, 0.514);
+  height: 11%;
+  width: 75%;
+  margin-top: 1210px;
+  margin-left: 10%;
   padding: 2%;
 }
 .classh2{
-  font-family: 'Bree Serif', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 210%;
-  color: black; 
+  color: rgb(83, 81, 87); 
 }
 .caja{
   width: 65%;
@@ -119,35 +120,46 @@ ul{
   position: absolute;
 }
 .sectionOne  h2{
+  
   font-size: 25pt;
-  color: rgb(0, 0, 0);
+  color: rgb(223, 204, 204);
 }
 
 footer{
   width: 100%;
-  background-color: rgb(56, 72, 75);
+  background-color: rgb(12, 11, 11);
   
 }
 footer li{
-  color: white;
+  color: rgb(209, 202, 202);
 }
 
-@media (max-width: 510px){
+@media (max-width: 550px){
   .sectionOne{
     height: 2600px;
   }
   .expeSP{
     height: 350px;
+    width: 85%;
+    margin-left: 4.5%;
+    padding: 3%;
     }
   .expeQB{
-    height: 1070px;
-    margin-top: 450px;
+    height: 1140px;
+    width: 85%;
+    margin-left: 4.5%;
+    margin-top: 440px;
+    padding: 3%;
     }
   .expeCH{
-    margin-top: 1560px;
+    margin-top: 1620px;
+    width: 85%;
+    margin-left: 4.5%;
     height: 350px;
+    padding: 3%;
   }
   .caja{
     margin-top: 1900px;
+    padding: 3%;
   }
   }
